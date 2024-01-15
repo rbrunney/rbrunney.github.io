@@ -1,0 +1,21 @@
+@use "../Utils.scss";
+
+.navbar {
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-between;
+}
+
+.navbar-item {
+    color: map-get($color-palette, "Soft Peach");
+    font-family: $primary-font;
+    font-size: $primary-font-size;
+}
+
+.download-resume-btn {
+    color: map-get($color-palette, "Studio");
+    background-color: map-get($color-palette, "Soft Peach");
+    font-family: $primary-font;
+    font-size: 15px;
+}

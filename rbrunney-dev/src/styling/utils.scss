@@ -1,0 +1,13 @@
+@use "sass:map";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=League+Spartan:wght@500&family=Open+Sans:wght@300&display=swap');
+
+$color-palette: (
+    "Black" : #010101,
+    "Studio" : #5f43b2,
+    "Soft Peach" : #fefdfd,
+    "Spun Pearl" : #b1aebb,
+    "Martinique" : #3a3153
+);
+
+$primary-font: 'League Spartan';
+$primary-font-size: 22px;

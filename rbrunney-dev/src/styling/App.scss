@@ -1,3 +1,9 @@
+@use "sass:map";
+
+@import "~bootstrap/scss/bootstrap";
+@import "./utils.scss";
+@import "./Home/home.scss";
+
 body {
-    background-color: black;
+    background-color: map.get($color-palette, "Studio");
 }

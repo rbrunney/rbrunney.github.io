@@ -1,10 +1,11 @@
-import React from 'react';
-import './styling/App.scss';
+import './styling/app.scss';
 import ParticleBackgroundEffect from './components/Background/ParticleBackgroundEffect';
+import Home from './components/Home/Home';
 
 function App() {
   return (
     <>
+      <Home />
       <ParticleBackgroundEffect />
     </>
   );
