@@ -1,21 +1,24 @@
-@use "../Utils.scss";
+@use "../utils.scss";
 
-.navbar {
-    width: 100%;
-    padding-left: 20%;
-    padding-right: 20%;
-    justify-content: space-between;
+.home-container {
+    display: flex;
 }
 
-.navbar-item {
+.home-intro {
+    flex: 1;
+    padding-top: 12%;
+    text-align: center;
+}
+
+.intro-title {
     color: map-get($color-palette, "Soft Peach");
     font-family: $primary-font;
-    font-size: $primary-font-size;
+    font-size: 150px;
 }
 
-.download-resume-btn {
-    color: map-get($color-palette, "Studio");
-    background-color: map-get($color-palette, "Soft Peach");
+.intro-description {
+    color: map-get($color-palette, "Soft Peach");
     font-family: $primary-font;
-    font-size: 15px;
+    font-size: 30px;
+    text-align: center;
 }

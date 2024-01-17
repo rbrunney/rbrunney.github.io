@@ -2,7 +2,14 @@
 
 @import "~bootstrap/scss/bootstrap";
 @import "./utils.scss";
+@import "./Navigation/navbar.scss";
+
+// Pages
 @import "./Home/home.scss";
+
+// Components
+@import "./Social/social.scss";
+@import "./Footer/footer.scss";
 
 body {
     background-color: map.get($color-palette, "Studio");

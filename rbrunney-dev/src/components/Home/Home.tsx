@@ -1,27 +1,19 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button';
-import ListGroup from 'react-bootstrap/ListGroup';
+import Footer from "../Footer/Footer";
+import SocialsBar from "../SocialsBar/SocialsBar";
 
 const Home = () => {
     return (
         <>
-            <Navbar expand="lg" className="navbar">
-                <Container>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="navbar">
-                        <Nav.Link href="#about" className='navbar-item'>About</Nav.Link>
-                        <Nav.Link href="#skills" className='navbar-item'>Skills</Nav.Link>
-                        <Nav.Link href="#project" className='navbar-item'>Projects</Nav.Link>
-                        <Nav.Link href="#work" className='navbar-item'>Work</Nav.Link>
-                        <Nav.Link href="#contact" className='navbar-item'>Contact</Nav.Link>
-                    </Nav>
-                    <Button variant="outline-primary" className='download-resume-btn'>Resume</Button>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+            <div className="home-container">
+                <div className="home-intro">
+                    <p className="intro-title">Software Engineer</p>
+                    <p className="intro-description">
+                        Hello, my name is Robert Brunney and I build software for a better tomorrow!
+                    </p>
+                    <SocialsBar />
+                </div>
+            </div>
+            <Footer />
         </>
     )
 }
