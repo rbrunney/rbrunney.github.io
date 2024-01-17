@@ -1,0 +1,17 @@
+@use '../utils.scss';
+
+.footer {
+    // Color and Font
+    text-align: center;
+    font-family: $primary-font;
+    color: map-get($color-palette, "Soft Peach");
+
+    // Locking To Bottom
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    // Style
+    padding-bottom: 25px;
+}

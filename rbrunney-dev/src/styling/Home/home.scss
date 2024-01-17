@@ -1,0 +1,24 @@
+@use "../utils.scss";
+
+.home-container {
+    display: flex;
+}
+
+.home-intro {
+    flex: 1;
+    padding-top: 12%;
+    text-align: center;
+}
+
+.intro-title {
+    color: map-get($color-palette, "Soft Peach");
+    font-family: $primary-font;
+    font-size: 150px;
+}
+
+.intro-description {
+    color: map-get($color-palette, "Soft Peach");
+    font-family: $primary-font;
+    font-size: 30px;
+    text-align: center;
+}
