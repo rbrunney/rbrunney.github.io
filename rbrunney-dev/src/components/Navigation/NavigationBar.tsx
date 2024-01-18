@@ -7,12 +7,16 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const NavigationBar = () => {
     var iconSize = 23;
+    var resumeLink = 'https://media.licdn.com/dms/document/media/D562DAQEVGdlRq4420A/profile-treasury-document-pdf-analyzed/0/1687922229645?e=1706745600&v=beta&t=s1dewrPrcUX4OCzac7_-26--djwohVvWKOWvY11qM5c';
 
     return (
         <>
             <Navbar expand="lg" className="navbar">
                 <div className="navbar-home">
-                    <FaHome className="navbar-icon" size={iconSize}/>
+                    <Nav.Link href="/" className='navbar-item'>
+                        <FaHome className="navbar-icon" size={iconSize}/>
+                    </Nav.Link>
+                    
                 </div>
                 <div className="navbar-page-nav">
                     <Nav className="navbar-item-list">
@@ -24,7 +28,9 @@ const NavigationBar = () => {
                     </Nav>
                 </div>
                 <div className="navbar-download">
-                    <FaDownload className="navbar-icon" size={iconSize}/>
+                    <a href={resumeLink} download="Robert Brunney's Resume" target="_blank">
+                        <FaDownload className="navbar-icon" size={iconSize}/>
+                    </a>
                 </div>
             </Navbar>
         </>
