@@ -1,9 +1,13 @@
-import Footer from "../Footer/Footer";
-import SocialsBar from "../SocialsBar/SocialsBar";
+import ParticleBackgroundEffect from "../../Background/ParticleBackgroundEffect";
+import Footer from "../../Footer/Footer";
+import NavigationBar from "../../Navigation/NavigationBar";
+import SocialsBar from "../../SocialsBar/SocialsBar";
 
-const Home = () => {
+const HomePage = () => {
     return (
         <>
+            <ParticleBackgroundEffect />
+            <NavigationBar/>
             <div className="home-container">
                 <div className="home-intro">
                     <p className="intro-title">Software Engineer</p>
@@ -18,4 +22,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default HomePage;
