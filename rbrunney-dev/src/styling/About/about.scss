@@ -1,0 +1,32 @@
+@use '../utils.scss';
+
+.about-container {
+    padding-top: 9%;
+    width: 100%;
+}
+
+.about-photo {
+    float: left;
+    width: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.photo {
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+}
+
+.about-description {
+    margin-left: 35%;
+    width: 60%;
+    padding-right: 5%;
+}
+
+.about-text {
+    text-align: left;
+    color: map-get($color-palette, "Soft Peach");
+    font-family: $primary-font;
+    font-size: 20px;
+}
