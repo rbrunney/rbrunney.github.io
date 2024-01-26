@@ -7,8 +7,6 @@ const AboutPage = () => {
 
     return (
         <>
-            <ParticleBackgroundEffect />
-            <NavigationBar/>
             <div className="about-container">
                 <div className="about-photo">
                     <div className="photo-border">
