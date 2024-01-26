@@ -6,8 +6,6 @@ import SocialsBar from "../../SocialsBar/SocialsBar";
 const HomePage = () => {
     return (
         <>
-            <ParticleBackgroundEffect />
-            <NavigationBar/>
             <div className="home-container">
                 <div className="home-intro">
                     <p className="intro-title">Software Engineer</p>
