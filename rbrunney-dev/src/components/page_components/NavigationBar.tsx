@@ -1,7 +1,5 @@
-import { Button } from 'react-bootstrap';
 import { FaHome } from 'react-icons/fa';
 import { FaDownload } from 'react-icons/fa';
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
