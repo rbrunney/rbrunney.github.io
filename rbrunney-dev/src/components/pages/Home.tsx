@@ -1,7 +1,5 @@
-import ParticleBackgroundEffect from "../../Background/ParticleBackgroundEffect";
-import Footer from "../../Footer/Footer";
-import NavigationBar from "../../Navigation/NavigationBar";
-import SocialsBar from "../../SocialsBar/SocialsBar";
+import Footer from "../page_components/Footer";
+import SocialsBar from "../page_components/SocialsBar";
 
 const HomePage = () => {
     return (

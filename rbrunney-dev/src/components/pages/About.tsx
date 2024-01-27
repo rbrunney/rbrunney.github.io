@@ -1,6 +1,4 @@
-import ParticleBackgroundEffect from "../../Background/ParticleBackgroundEffect";
-import Footer from "../../Footer/Footer";
-import NavigationBar from "../../Navigation/NavigationBar";
+import Footer from "../page_components/Footer";
 
 const AboutPage = () => {
     var photoUrl = 'https://media.licdn.com/dms/image/D5603AQG6hldZCU-8mQ/profile-displayphoto-shrink_200_200/0/1687383692377?e=1710979200&v=beta&t=-9v8ivNkTkO80AuXsJUIsONssQFKbJYMoTA3S_0kRm8';

@@ -1,8 +1,8 @@
 import './styling/app.scss';
-import HomePage from './components/Pages/Home/Home';
-import AboutPage from './components/Pages/About/About';
-import ParticleBackgroundEffect from './components/Background/ParticleBackgroundEffect';
-import NavigationBar from './components/Navigation/NavigationBar';
+import HomePage from './components/pages/Home';
+import AboutPage from './components/pages/About';
+import ParticleBackgroundEffect from './components/page_components/ParticleBackgroundEffect';
+import NavigationBar from './components/page_components/NavigationBar';
 
 function App() {
   return (
