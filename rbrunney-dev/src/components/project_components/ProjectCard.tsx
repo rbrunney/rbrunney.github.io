@@ -11,6 +11,7 @@ interface IProjectCardProps {
 }
 
 const ProjectCard = (props: IProjectCardProps) => {
+    var techPerRow = 5;
     return (
         <>
             <Card className="project-card">
@@ -30,7 +31,26 @@ const ProjectCard = (props: IProjectCardProps) => {
                     </Row>
                     <Row>
                         <Col>
-
+                            {
+                                props.technology.map((tech, i) => {
+                                    return i % techPerRow === 0 ? 
+                                        <Row>
+                                            {
+                                                props.technology.slice(i-techPerRow, i).map(tech => {
+                                                    return <Col><TechLabel techName={tech}/></Col>
+                                                })
+                                            }
+                                        </Row>
+                                    : <></>;
+                                })
+                            }
+                            {/* <Row>
+                                {
+                                    remainingTechnology.map(remainingTech => {
+                                        return <Col><TechLabel techName={remainingTech}/></Col>
+                                    })
+                                }
+                            </Row> */}
                         </Col>
                     </Row>
                 </Card.Body>
