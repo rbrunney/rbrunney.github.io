@@ -7,10 +7,12 @@
 // Pages
 @import "./pages/home.scss";
 @import "./pages/about.scss";
+@import "./pages/projects.scss";
 
 // Components
 @import "./page_components/social.scss";
 @import "./page_components/footer.scss";
+@import "./project_components/projectCard.scss";
 
 body {
     background-color: map.get($color-palette, "Studio");

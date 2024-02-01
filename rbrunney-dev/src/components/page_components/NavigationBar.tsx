@@ -14,12 +14,10 @@ const NavigationBar = () => {
                     <Nav.Link href="#home" className='navbar-item'>
                         <FaHome className="navbar-icon" size={iconSize}/>
                     </Nav.Link>
-                    
                 </div>
                 <div className="navbar-page-nav">
                     <Nav className="navbar-item-list">
                         <Nav.Link href="#about" className='navbar-item'>About</Nav.Link>
-                        <Nav.Link href="#skills" className='navbar-item'>Skills</Nav.Link>
                         <Nav.Link href="#projects" className='navbar-item'>Projects</Nav.Link>
                         <Nav.Link href="#work" className='navbar-item'>Work</Nav.Link>
                         <Nav.Link href="#contact" className='navbar-item'>Contact</Nav.Link>

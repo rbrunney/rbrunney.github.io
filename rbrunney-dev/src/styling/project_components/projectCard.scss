@@ -1,0 +1,30 @@
+@import '../utils.scss';
+
+.project-card {
+}
+
+.project-img {
+    border-bottom-left-radius: 1.5%;
+    border-bottom-right-radius: 1.5%;
+}
+
+.project-title {
+    font-family: $primary-font;
+    font-size: 35px;
+}
+
+.project-decription {
+    font-family: $primary-font;
+}
+
+.project-tech-title {
+    padding-top: 3%;
+    font-family: $primary-font;
+}
+
+.tech-label {
+    font-family: $primary-font;
+    font-size: 12px;
+    margin: 1%
+}
+
