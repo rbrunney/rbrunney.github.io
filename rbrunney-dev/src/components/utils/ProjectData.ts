@@ -64,7 +64,7 @@ const getCodeProjects = () => {
     let boomlingo = new CodeProject(
         "Boomlingo",
         '"Boomlingo" is a mobile application made for helping anyone with the language of gamers. Having the ability to take courses on the current lingo, you will be ready in no time. If that is not your jam talk to someone online face-to-face with a video call feature. "Boomlingo" applied Cloud Architecture using AWS.',
-        require('../../assets/imgs/projects/InvestEd/InvestEdLogo.png'),
+        require('../../assets/imgs/projects/Boomlingo/Duo_2019.png'),
         []
     )
 
