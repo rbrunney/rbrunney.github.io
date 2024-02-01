@@ -9,8 +9,19 @@
     background-color: #313131;
     max-height: 260px;
     max-width: 390px;
-    padding: 25px;
+    padding-top: 10px;
     object-fit: contain;
+}
+
+.project-img-coming-soon {
+    @include center-contents;
+    border-radius: 1.5%;
+    height: 260px;
+    width: 390px;
+    background-color: #313131;
+    color: map-get($color-palette, "Soft Peach");
+    max-height: 260px;
+    max-width: 390px;
 }
 
 .project-title {

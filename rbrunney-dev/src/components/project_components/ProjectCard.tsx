@@ -17,7 +17,10 @@ const ProjectCard = (props: IProjectCardProps) => {
                 <Card.Body>
                     <Row>
                         <Col className="project-tech">
-                            <Card.Img variant="top" src={props.imgPath} className="project-img"/>
+                            {
+                                props.imgPath !== '' ? <Card.Img variant="top" src={props.imgPath} className="project-img"/> 
+                                                     : <Card.Subtitle className="project-img-coming-soon">COMING SOON!</Card.Subtitle>
+                            }
                             <Card.Subtitle className="project-tech-title">Technology:</Card.Subtitle>
                         </Col>
                         <Col className="project-description">
@@ -27,7 +30,7 @@ const ProjectCard = (props: IProjectCardProps) => {
                     </Row>
                     <Row>
                         <Col>
-                            
+
                         </Col>
                     </Row>
                 </Card.Body>

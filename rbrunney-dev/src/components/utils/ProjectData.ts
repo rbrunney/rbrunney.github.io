@@ -50,14 +50,14 @@ const getCodeProjects = () => {
     let fairShare = new CodeProject(
         "FairShare",
         '"FairShare" is currently a mobile application aimed at helping those who have shared finances! Whether you have to share a bill for dinner, or shared rent cost. "FairShare" is also here to help towards group financial goals. Plan ahead and get on track with "FairShare" today!',
-        require('../../assets/imgs/projects/InvestEd/InvestEdLogo.png'),
+        '',
         []
     )
 
     let recipelicious = new CodeProject(
         "Recipelicious",
         `"Recipelicious" is a mobile application made for helping answer the age-old question "What's For Dinner?" Having the ability to create, read, and view meals from across the world! Users can find themselves making friends and creating group chats to discuss "Recipelicious" by sending meal cards into the chat and voting upon what they would like. The majority vote wins the question "What's for Dinner"! "Recipelicious" applied Service Oriented Architecture to give the users a seamless experience!`,
-        require('../../assets/imgs/projects/InvestEd/InvestEdLogo.png'),
+        require('../../assets/imgs/projects/Recipelicious/Recipelicious.PNG'),
         []
     )
 

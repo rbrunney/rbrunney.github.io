@@ -1,6 +1,14 @@
 @use "sass:map";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=League+Spartan:wght@500&family=Open+Sans:wght@300&display=swap');
 
+@mixin center-contents {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
 $color-palette: (
     "Black" : #010101,
     "Studio" : #5f43b2,
