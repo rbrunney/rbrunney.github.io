@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.678d13cc.css",
-    "main.js": "/static/js/main.d5fad4a3.js",
+    "main.css": "/static/css/main.6e1f6809.css",
+    "main.js": "/static/js/main.b6c3985a.js",
     "static/js/787.fe38a3fd.chunk.js": "/static/js/787.fe38a3fd.chunk.js",
+    "static/media/Recipelicious.PNG": "/static/media/Recipelicious.1c9d08c33a8e58ea03b2.PNG",
+    "static/media/InvestEdLogo.png": "/static/media/InvestEdLogo.8078c2f89abd9531405e.png",
     "index.html": "/index.html",
-    "main.678d13cc.css.map": "/static/css/main.678d13cc.css.map",
-    "main.d5fad4a3.js.map": "/static/js/main.d5fad4a3.js.map",
+    "main.6e1f6809.css.map": "/static/css/main.6e1f6809.css.map",
+    "main.b6c3985a.js.map": "/static/js/main.b6c3985a.js.map",
     "787.fe38a3fd.chunk.js.map": "/static/js/787.fe38a3fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.678d13cc.css",
-    "static/js/main.d5fad4a3.js"
+    "static/css/main.6e1f6809.css",
+    "static/js/main.b6c3985a.js"
   ]
 }
