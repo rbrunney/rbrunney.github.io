@@ -1,0 +1,56 @@
+@import '../utils.scss';
+
+.project-card {
+    height: 100%;
+}
+
+.project-img {
+    border-bottom-left-radius: 1.5%;
+    border-bottom-right-radius: 1.5%;
+    background-color: #313131;
+    max-height: 260px;
+    max-width: 390px;
+    padding-top: 10px;
+    object-fit: contain;
+}
+
+.project-img-coming-soon {
+    @include center-contents;
+    border-radius: 1.5%;
+    height: 260px;
+    width: 390px;
+    background-color: #313131;
+    color: map-get($color-palette, "Soft Peach");
+    max-height: 260px;
+    max-width: 390px;
+}
+
+.project-title {
+    font-family: $primary-font;
+    font-size: 35px;
+}
+
+.project-links-section {
+    text-align: right;
+}
+
+.project-links {
+    color: map-get($color-palette, "Black");
+}
+
+.project-decription {
+    font-family: $primary-font;
+}
+
+.project-tech-title {
+    padding-top: 5%;
+    font-family: $primary-font;
+}
+
+.tech-label {
+    font-family: $primary-font;
+    font-size: 12px;
+    margin: 1%;
+    text-align: center;
+}
+

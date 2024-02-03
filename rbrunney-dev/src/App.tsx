@@ -3,6 +3,7 @@ import HomePage from './components/pages/Home';
 import AboutPage from './components/pages/About';
 import ParticleBackgroundEffect from './components/page_components/ParticleBackgroundEffect';
 import NavigationBar from './components/page_components/NavigationBar';
+import ProjectsPage from './components/pages/Projects';
 
 function App() {
   return (
@@ -15,9 +16,8 @@ function App() {
       <section id='about'>
         <AboutPage />
       </section>
-      <section id='skills'>
-      </section>
       <section id='projects'>
+        <ProjectsPage />      
       </section>
       <section id='work'>
       </section>
