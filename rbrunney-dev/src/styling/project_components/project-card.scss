@@ -30,6 +30,14 @@
     font-size: 35px;
 }
 
+.project-links-section {
+    text-align: right;
+}
+
+.project-links {
+    color: map-get($color-palette, "Black");
+}
+
 .project-decription {
     font-family: $primary-font;
 }

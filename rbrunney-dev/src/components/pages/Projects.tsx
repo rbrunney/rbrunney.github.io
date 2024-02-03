@@ -21,6 +21,7 @@ const ProjectsPage = () => {
                                             description={project.description}
                                             imgPath={project.imgPath}
                                             technology={project.technology}
+                                            githubLink={project.githubLink}
                                         />
                                     </Col>
                                     <Col>
@@ -29,6 +30,7 @@ const ProjectsPage = () => {
                                             description={projects[i + 1].description}
                                             imgPath={projects[i + 1].imgPath}
                                             technology={projects[i + 1].technology}
+                                            githubLink={projects[i + 1].githubLink}
                                         />
                                     </Col>
                                 </Row>

@@ -2,13 +2,15 @@ class CodeProject {
     name: string;
     description: string;
     imgPath: string;
-    technology: string[]
+    technology: string[];
+    githubLink: string;
 
-    constructor(name: string, description: string, imgPath: string, technology: string[]) {
+    constructor(name: string, description: string, imgPath: string, technology: string[], githubLink: string) {
         this.name = name;
         this.description = description;
         this.imgPath = imgPath;
         this.technology = technology;
+        this.githubLink = githubLink;
     }
 }
 
@@ -37,14 +39,16 @@ const getCodeProjects = () => {
             "Postman",
             "Trello",
             "Polygon.io API"
-        ]
+        ],
+        "https://github.com/rbrunney/InvestEd"
     );
 
     let fairShare = new CodeProject(
         "FairShare",
         '"FairShare" is currently a mobile application aimed at helping those who have shared finances! Whether you have to share a bill for dinner, or shared rent cost. "FairShare" is also here to help towards group financial goals. Plan ahead and get on track with "FairShare" today!',
         '',
-        ['Coming Soon!']
+        ['Coming Soon!'],
+        ""
     )
 
     let recipelicious = new CodeProject(
@@ -67,7 +71,8 @@ const getCodeProjects = () => {
             'Git',
             'Github',
             'Trello'
-        ]
+        ],
+        "https://github.com/rbrunney/Recipelicious"
     )
 
     let boomlingo = new CodeProject(
@@ -91,7 +96,8 @@ const getCodeProjects = () => {
             'Git',
             'Github',
             'Trello'
-        ]
+        ],
+        "https://github.com/rbrunney/Boomlingo"
     )
 
     return [
