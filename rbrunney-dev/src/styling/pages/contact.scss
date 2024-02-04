@@ -1,1 +1,52 @@
 @import "../utils.scss";
+
+#contact {
+    height: 100vh
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-title {
+    color: map-get($color-palette, "Soft Peach");
+    font-family: $primary-font;
+    font-size: 75px;
+}
+
+.contact-description {
+    color: map-get($color-palette, "Soft Peach");
+    font-family: $primary-font;
+    font-size: 25px;
+}
+
+.contact-email-form {
+}
+
+.contact-label {
+    color: map-get($color-palette, "Soft Peach");
+    font-family: $primary-font;
+    size: 20px;
+}
+
+.contact-user-data {
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contact-message {
+    text-align: left;
+    max-width: 100%;
+}
+
+.contact-send-email-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-email-row {
+    direction: flex;
+    max-width: 100%;
+    padding-top: 20px;
+}
