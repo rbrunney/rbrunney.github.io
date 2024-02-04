@@ -16,7 +16,7 @@ const NavigationBar = () => {
                     </Nav.Link>
                 </div>
                 <div className="navbar-page-nav">
-                    <Nav className="navbar-item-list">
+                    <Nav className="navbar-item-list" activeKey="">
                         <Nav.Link href="#about" className='navbar-item'>About</Nav.Link>
                         <Nav.Link href="#projects" className='navbar-item'>Projects</Nav.Link>
                         <Nav.Link href="#work" className='navbar-item'>Work</Nav.Link>
