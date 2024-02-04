@@ -4,6 +4,7 @@ import AboutPage from './components/pages/About';
 import ParticleBackgroundEffect from './components/page_components/ParticleBackgroundEffect';
 import NavigationBar from './components/page_components/NavigationBar';
 import ProjectsPage from './components/pages/Projects';
+import ContactPage from './components/pages/Contact';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <section id='work'>
       </section>
       <section id='contact'>
+        <ContactPage />
       </section>
     </>
   );
