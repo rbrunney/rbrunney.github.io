@@ -1,6 +1,6 @@
 {
   "name": "rbrunney-dev",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "homepage": "https://rbrunney.github.io",
   "dependencies": {
@@ -20,6 +20,7 @@
     "react-router-dom": "^6.21.2",
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.12.2",
+    "react-vertical-timeline-component": "^3.6.0",
     "sass": "^1.69.7",
     "tsparticles": "^3.1.0",
     "tsparticles-engine": "^2.12.0",
@@ -54,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-vertical-timeline-component": "^3.3.6",
     "gh-pages": "^6.1.1"
   }
 }
