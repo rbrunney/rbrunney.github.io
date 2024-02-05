@@ -1,14 +1,16 @@
 @use "../utils.scss";
 
-.socials-container {
-    text-align: center;
-    padding-top: 5%;
-}
+.socials {
+    &-container {
+        text-align: center;
+        padding-top: 5%;
+    }
 
-.social-icon {
-    position: relative;
-    z-index: 10;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: map-get($color-palette, "Soft Peach");
+    &-icon {
+        position: relative;
+        z-index: 10;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: map-get($color-palette, "Soft Peach");
+    }
 }
