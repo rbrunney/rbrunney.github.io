@@ -1,5 +1,9 @@
 @use "../utils.scss";
 
+#home {
+    height: 100vh
+}
+
 .home-container {
     display: flex;
 }
