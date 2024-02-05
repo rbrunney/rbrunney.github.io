@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.33319ce2.css",
-    "main.js": "/static/js/main.fb3a1486.js",
+    "main.css": "/static/css/main.7aa9458b.css",
+    "main.js": "/static/js/main.5f490c1a.js",
     "static/js/787.fe38a3fd.chunk.js": "/static/js/787.fe38a3fd.chunk.js",
     "static/media/advancedmd-logo.png": "/static/media/advancedmd-logo.e220d5e5a84743579710.png",
     "static/media/rbrunney-resume.pdf": "/static/media/rbrunney-resume.4c7fff597220ceeaf938.pdf",
     "static/media/Recipelicious.PNG": "/static/media/Recipelicious.1c9d08c33a8e58ea03b2.PNG",
     "static/media/InvestEdLogo.png": "/static/media/InvestEdLogo.8078c2f89abd9531405e.png",
     "index.html": "/index.html",
-    "main.33319ce2.css.map": "/static/css/main.33319ce2.css.map",
-    "main.fb3a1486.js.map": "/static/js/main.fb3a1486.js.map",
+    "main.7aa9458b.css.map": "/static/css/main.7aa9458b.css.map",
+    "main.5f490c1a.js.map": "/static/js/main.5f490c1a.js.map",
     "787.fe38a3fd.chunk.js.map": "/static/js/787.fe38a3fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33319ce2.css",
-    "static/js/main.fb3a1486.js"
+    "static/css/main.7aa9458b.css",
+    "static/js/main.5f490c1a.js"
   ]
 }
