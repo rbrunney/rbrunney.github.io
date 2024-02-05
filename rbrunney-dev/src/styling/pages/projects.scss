@@ -15,4 +15,11 @@
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    &-title {
+        text-align: center;
+        color: map-get($color-palette, "Soft Peach");
+        font-family: $primary-font;
+        font-size: 75px;
+    }
 }

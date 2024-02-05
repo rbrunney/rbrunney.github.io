@@ -6,6 +6,7 @@ const AboutPage = () => {
     return (
         <>
             <div className="about-container">
+                <p className="about-title">A Little About Me</p>
                 <div className="about-photo">
                     <div className="photo-border">
                         <img src={photoUrl} className="photo"/>
