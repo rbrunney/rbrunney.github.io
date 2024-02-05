@@ -10,9 +10,9 @@ const SocialsBar = () => {
 
     return (
         <div className="socials-container">
-            <a href={linkedInUrl} target="_blank" className="social-icon"><FaLinkedin size={iconSize}/></a>
-            <a href={githubUrl} target="_blank" className="social-icon"><FaGithub size={iconSize}/></a>
-            <a href='mailto:rbrunney.dev@gmail.com' className="social-icon"><MdEmail size={iconSize}/></a>
+            <a href={linkedInUrl} target="_blank" className="socials-icon"><FaLinkedin size={iconSize}/></a>
+            <a href={githubUrl} target="_blank" className="socials-icon"><FaGithub size={iconSize}/></a>
+            <a href='mailto:rbrunney.dev@gmail.com' className="socials-icon"><MdEmail size={iconSize}/></a>
         </div>
     );
 }
