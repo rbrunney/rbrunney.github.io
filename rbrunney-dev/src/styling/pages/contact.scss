@@ -6,6 +6,8 @@
 
 .contact-container {
     text-align: center;
+    z-index: 10;
+    position: relative;
 }
 
 .contact-title {
@@ -42,11 +44,22 @@
 
 .contact-send-email-btn {
     margin-top: 20px;
+    color: map-get($color-palette, "Black");
+    font-family: $primary-font;
+    background-color: map-get($color-palette, "Soft Peach");
     text-align: center;
+}
+
+.contact-send-email-btn:hover {
+    background-color: map-get($color-palette, "Spun Pearl")
 }
 
 .contact-email-row {
     direction: flex;
     max-width: 100%;
     padding-top: 20px;
+}
+
+.contact-email-section {
+    z-index: 10;
 }
