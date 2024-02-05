@@ -2,43 +2,43 @@
 
 .navbar {
     direction: flex;
-}
 
-.navbar-home {
-    flex: 1;
-    padding-left: 3%;
-    text-align: left;
-    position: relative;
-    z-index: 10;
-}
+    &-home {
+        flex: 1;
+        padding-left: 3%;
+        text-align: left;
+        position: relative;
+        z-index: 10;
+    }
 
-.navbar-download {
-    flex: 1;
-    padding-right: 3%;
-    text-align: right;
-    position: relative;
-    z-index: 10;
-}
+    &-download {
+        flex: 1;
+        padding-right: 3%;
+        text-align: right;
+        position: relative;
+        z-index: 10;
+    }
 
-.navbar-page-nav {
-    flex: 6;
-    padding-right: 20%;
-    padding-left: 20%;
-    justify-content: space-between;
-}
+    &-page-nav {
+        flex: 6;
+        padding-right: 20%;
+        padding-left: 20%;
+        justify-content: space-between;
+    }
 
-.navbar-item-list {
-    justify-content: space-between;
-}
+    &-item-list {
+        justify-content: space-between;
+    }
 
-.navbar-icon {
-    color: map-get($color-palette, "Soft Peach");
-}
+    &-icon {
+        color: map-get($color-palette, "Soft Peach");
+    }
 
-.navbar-item {
-    color: map-get($color-palette, "Soft Peach");
-    font-family: $primary-font;
-    font-size: $primary-font-size;
+    &-item {
+        color: map-get($color-palette, "Soft Peach");
+        font-family: $primary-font;
+        font-size: $primary-font-size;
+    }
 }
 
 .download-resume-btn {
