@@ -55,12 +55,10 @@ const ContactPage = () => {
                         </FormGroup>
                         <FormGroup className="contact-message">
                             <Row className="contact-email-row">
-                                <Col className="contact-empty-col"></Col>
                                 <Col className="contact-email-col">
                                     <FormLabel className="contact-label">Your Message</FormLabel>
                                     <Form.Control name="email-body" id="email-body" as="textarea" rows={5}/>
                                 </Col>
-                                <Col className="contact-empty-col"></Col>
                             </Row>
                         </FormGroup>
                         <Button className="contact-send-email-btn" type="submit">

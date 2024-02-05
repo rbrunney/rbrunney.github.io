@@ -42,7 +42,7 @@
     }
 
     &-send-email-btn {
-        margin-top: 20px;
+        margin-top: 40px;
         color: map-get($color-palette, "Black");
         font-family: $primary-font;
         background-color: map-get($color-palette, "Soft Peach");
@@ -55,11 +55,21 @@
 
     &-email-row {
         direction: flex;
+        justify-content: center;
         max-width: 100%;
         padding-top: 20px;
     }
 
     &-email-section {
         z-index: 10;
+    }
+
+    &-empty-col {
+        flex: 2;
+    }
+
+    &-email-col {
+        margin-left: 20px;
+        max-width: 50%;
     }
 }
