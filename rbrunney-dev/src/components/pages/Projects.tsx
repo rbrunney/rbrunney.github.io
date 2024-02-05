@@ -14,7 +14,7 @@ const ProjectsPage = () => {
                     projects.map((project, i) => {
                         if(i % 2 == 0) {
                             return (
-                                <Row className="project-row">
+                                <Row className="projects-row">
                                     <Col>
                                         <ProjectCard 
                                             name={project.name}

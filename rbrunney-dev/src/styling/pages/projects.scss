@@ -4,13 +4,15 @@
     height: 100vh
 }
 
-.projects-container {
-    margin-top: 15%;
-    margin-bottom: 5%;
-}
+.projects {
+    &-container {
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
 
-.project-row {
-    margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
+    &-row {
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
