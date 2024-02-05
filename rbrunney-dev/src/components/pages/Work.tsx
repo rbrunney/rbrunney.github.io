@@ -29,9 +29,7 @@ const WorkPage = () => {
                                     <h5 className="vertical-timeline-element-subtitle">
                                         {workExperience.location}
                                     </h5>
-                                    <p id="description">
-                                        {workExperience.description}
-                                    </p>
+                                    <p>{workExperience.description}</p>
                                 </VerticalTimelineElement>
                             );
                         })
