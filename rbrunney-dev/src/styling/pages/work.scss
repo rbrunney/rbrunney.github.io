@@ -4,17 +4,15 @@
     height: 175vh;
 }
 
-.work-title {
-    text-align: center;
-    color: map-get($color-palette, "Soft Peach");
-    font-family: $primary-font;
-    font-size: 75px;
-}
+.work {
+    &-title {
+        text-align: center;
+        color: map-get($color-palette, "Soft Peach");
+        font-family: $primary-font;
+        font-size: 75px;
+    }
 
-.work-timeline {
+    &-icon {
+        background: map-get($color-palette, "Soft Peach");
+    }
 }
-
-.work-icon {
-    background: map-get($color-palette, "Soft Peach");
-}
-
