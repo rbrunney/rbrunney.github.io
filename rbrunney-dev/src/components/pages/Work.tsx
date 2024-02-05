@@ -1,4 +1,4 @@
-import { VerticalTimeLine, VerticalTimeLineElement } from "react-vertical-timeline-component";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import getWorkData from "../utils/WorkData";
 
 const WorkPage = () => {
@@ -8,17 +8,17 @@ const WorkPage = () => {
         <>
             <div className="work-container">
                 <p className="work-title">Work Experience</p>
-                <VerticalTimeLine>
+                <VerticalTimeline>
                     {
                         workData.map(workExperience => {
                             return (
-                                <VerticalTimeLineElement>
+                                <VerticalTimelineElement>
                                 
-                                </VerticalTimeLineElement>
+                                </VerticalTimelineElement>
                             );
                         })
                     }
-                </VerticalTimeLine>
+                </VerticalTimeline>
             </div>
         </>
     );
