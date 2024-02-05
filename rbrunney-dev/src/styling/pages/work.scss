@@ -3,3 +3,14 @@
 #work {
     height: 100vh;
 }
+
+.work-title {
+    text-align: center;
+    color: map-get($color-palette, "Soft Peach");
+    font-family: $primary-font;
+    font-size: 75px;
+}
+
+.work-icon {
+    background: map-get($color-palette, "Soft Peach");
+}
