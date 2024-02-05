@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const NavigationBar = () => {
     var iconSize = 23;
-    var resumeLink = 'https://media.licdn.com/dms/document/media/D562DAQEVGdlRq4420A/profile-treasury-document-pdf-analyzed/0/1687922229645?e=1706745600&v=beta&t=s1dewrPrcUX4OCzac7_-26--djwohVvWKOWvY11qM5c';
+    var resumeLink = require('../../assets/documents/rbrunney-resume.pdf');
 
     return (
         <>
