@@ -35,7 +35,7 @@ const ProjectCard = (props: IProjectCardProps) => {
                                     }
                                 </Col>
                             </Row>
-                            <Card.Text className="project-decription">{props.description}</Card.Text>
+                            <Card.Text className="project-description">{props.description}</Card.Text>
                         </Col>
                     </Row>
                 </Card.Body>
