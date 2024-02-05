@@ -9,6 +9,7 @@ const ProjectsPage = () => {
 
     return (
         <div className="projects-container">
+            <p className="work-title">Projects</p>
             <>
                 {
                     projects.map((project, i) => {
