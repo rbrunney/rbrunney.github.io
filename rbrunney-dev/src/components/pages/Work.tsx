@@ -12,6 +12,7 @@ const WorkPage = () => {
                 <VerticalTimeline
                     animate={false}
                     layout={"1-column-left"}
+                    className="work-timeline"
                 >
                     {
                         workData.map(workExperience => {
